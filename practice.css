@@ -1,0 +1,108 @@
+h1{
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: rgb(97, 58, 187)
+}
+
+.header{
+    display: flex;
+    margin: auto;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#library{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /*width: 400px; */
+    height: 800px;
+    background-color: rgb(67, 230, 230);
+}
+
+#bookshelf{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    margin: 20px; 
+    gap: 12px;
+}
+
+.myLibrary{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(124, 69, 226);
+    border-width: 2px;
+    border-color: aliceblue;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+#book{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(124, 69, 226);
+    border-width: 2px;
+    border-color: aliceblue;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+#bookDetails{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(128, 59, 192);
+    height: 200px;
+    width: 200px;
+    gap: 12px;
+    color: aliceblue;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+#newBookButton{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    color: rgb(124, 69, 226);
+    font-size: medium;
+    font-weight: 200;
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+    border-color: rgb(124, 69, 226);
+}
+
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
